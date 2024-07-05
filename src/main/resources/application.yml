@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /
+  port:
+    8080
+
+spring:
+  application:
+    name: reactive-service
+  data:
+    mongodb:
+      user: root
+      password: root
+      uri: mongodb://localhost:27017/reactive
